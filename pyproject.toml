@@ -23,8 +23,7 @@ dependencies = [
 ]
 
 [project.scripts]
-# Makes 'spam-cli' an executable on PATH
-spam-cli = "pypiwizard.util:replace_me"
+pypiwizard = "pypiwizard.cli:cli_main"
 
 [project.urls]
 Homepage = "https://example.com"
